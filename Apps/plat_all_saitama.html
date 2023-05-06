@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Cesium.js"></script>
+<link href="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    // Get your token from https://cesium.com/ion/tokens
+    // A. トークンを設定
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5N2UyMjcwOS00MDY1LTQxYjEtYjZjMy00YTU0ZTg5MmViYWQiLCJpZCI6ODAzMDYsImlhdCI6MTY0Mjc0ODI2MX0.dkwAL1CcljUV7NA7fDbhXXnmyZQU_c-G5zRx8PtEcxE';
+    // B. terrainProviderを設定
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      terrainProvider: new Cesium.CesiumTerrainProvider({
+          url: Cesium.IonResource.fromAssetId(770371)
+      })
+    }
+    );
+    // ①建物モデルの追加
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/0f/7a7bcc-b0ba-43d0-b0cd-b111b0e4920b/11100_saitama-shi_2022_3dtiles_1_op_bldg_11103_omiya-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/68/644e04-f05e-4982-be37-b978219275a1/11100_saitama-shi_2022_3dtiles_1_op_bldg_11105_chuo-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/1d/68c58f-0c91-47e3-820b-44f80d9e4ba4/11100_saitama-shi_2022_3dtiles_1_op_bldg_11107_urawa-ku_lod2/tileset.json'
+    }));
+    // ②カメラのズーム
+    viewer.flyTo(your_3d_tiles);
+  </script>
+</body>
+</html>
