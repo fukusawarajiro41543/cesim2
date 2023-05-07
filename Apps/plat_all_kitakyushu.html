@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Cesium.js"></script>
+<link href="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    // Get your token from https://cesium.com/ion/tokens
+    // A. トークンを設定
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5N2UyMjcwOS00MDY1LTQxYjEtYjZjMy00YTU0ZTg5MmViYWQiLCJpZCI6ODAzMDYsImlhdCI6MTY0Mjc0ODI2MX0.dkwAL1CcljUV7NA7fDbhXXnmyZQU_c-G5zRx8PtEcxE';
+    // B. terrainProviderを設定
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      terrainProvider: new Cesium.CesiumTerrainProvider({
+          url: Cesium.IonResource.fromAssetId(770371)
+      })
+    }
+    );
+    // ①建物モデルの追加
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/a9/23f547-a62b-49cb-9378-e1aa23640815/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40101_moji-ku_lod1/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/48/799062-7fdf-4005-a0a0-6390a45ef6bf/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40103_wakamatsu-ku_lod1/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/34/dc5b8a-d81f-45b7-92d7-5e526569791d/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40105_tobata-ku_lod1/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/be/2b91e5-2bed-43f8-a515-a51fd67902d9/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40106_kokurakita-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/ab/24064c-465f-4e0e-8129-d3d6194d9878/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40107_kokuraminami-ku_lod1/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/87/c5812e-66d9-402f-91d6-593e5bab91cc/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40108_yahatahigashi-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/82/fd52cc-3009-4d64-91b3-3123b2c22c2c/40100_kitakyushu-shi_2020_3dtiles_4_op_bldg_40109_yahatanishi-ku_lod1/tileset.json'
+    }));
+    // ②カメラのズーム
+    viewer.flyTo(your_3d_tiles);
+  </script>
+</body>
+</html>
