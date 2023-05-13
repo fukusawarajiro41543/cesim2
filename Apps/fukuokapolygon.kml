@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>東福岡ＰＡ</name>
+    <open>1</open>
+    <Style id="polygon">
+        <PolyStyle>
+            <color>7f55ff00</color>
+            <outline>0</outline>
+        </PolyStyle>
+    </Style>
+    <Placemark>
+        <name>東福岡ＰＡ</name>
+        <description>これが指定範囲です。</description>
+        <styleUrl>#polygon</styleUrl>
+        <Polygon><!--ポリゴンを作成-->
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        <!--ポリゴンの頂点を作成、経緯度標高の順で指定-->
+                        
+                        130.428041737419,33.644910106827,45 
+                        130.426967151912,33.6448387797268,45 
+                        130.431477590033,33.5972810878119,45 
+                        130.432551588968,33.59735237628,45 
+                        130.428041737419,33.644910106827,45 
+
+                        <!--始点と同じ経緯度標高-->
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml> 
