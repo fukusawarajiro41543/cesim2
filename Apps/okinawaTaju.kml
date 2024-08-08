@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>okinawaTaju</name>
+	<open>1</open>
 	<Folder>
 		<name>line</name>
 		<Document>
@@ -40,7 +41,7 @@
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.998555,26.603336,29.5 128.019334,26.61592,33.5 
+						127.998555,26.603336,21 128.019334,26.61592,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -48,48 +49,48 @@
 		<Document>
 			<name>line_oki40.kml</name>
 			<open>1</open>
-			<Style id="style00">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style1">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id00">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style1</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style00</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id00</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.25854,26.788129,15.4 128.2551388888889,26.78355555555556,15 
+						128.25854,26.788129,21 128.2551388888889,26.78355555555556,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki39.kml</name>
-			<Style id="style01">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -98,7 +99,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style2">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -107,30 +108,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style2</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style01</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id01</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.175788,26.647563,7 128.178564,26.645812,15 
+						128.175788,26.647563,21 128.178564,26.645812,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki38.kml</name>
-			<Style id="style02">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -139,7 +140,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style3">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -148,30 +149,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id02">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style3</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style02</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id02</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.175788,26.647563,7 128.1726388888889,26.64958333333333,15 
+						128.175788,26.647563,21 128.1726388888889,26.64958333333333,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki37.kml</name>
-			<Style id="style03">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -180,7 +181,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style4">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -189,30 +190,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id03">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style4</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style03</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id03</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.280198,26.742871,20 128.274687,26.745415,15 
+						128.280198,26.742871,21 128.274687,26.745415,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki36.kml</name>
-			<Style id="style04">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -221,7 +222,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style5">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -230,30 +231,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id04">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style5</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style04</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id04</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.280198,26.742871,15.5 128.2432,26.752138,20 
+						128.280198,26.742871,21 128.2432,26.752138,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki35.kml</name>
-			<Style id="style05">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -262,7 +263,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style6">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -271,23 +272,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id05">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style6</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style05</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id05</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.927507,26.633898,32.5 127.951075,26.483705,50.3 
+						127.927507,26.633898,21 127.951075,26.483705,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -295,41 +296,41 @@
 		<Document>
 			<name>line_oki34.kml</name>
 			<open>1</open>
-			<Style id="style010">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style20">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id010">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style20</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style010</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id010</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.690831,26.227739,58.5 127.681438,26.212811,50.00000000000001 
+						127.690831,26.227739,21 127.681438,26.212811,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -337,48 +338,48 @@
 		<Document>
 			<name>line_oki33.kml</name>
 			<open>1</open>
-			<Style id="style020">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style30">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id020">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style30</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style020</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id020</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.690831,26.227739,58.5 127.747623,26.330779,29 
+						127.690831,26.227739,21 127.747623,26.330779,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki32.kml</name>
-			<Style id="style06">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -387,7 +388,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style7">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -396,30 +397,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id06">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style7</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style06</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id06</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.690831,26.227739,58.5 127.759685,26.170499,54 
+						127.690831,26.227739,21 127.759685,26.170499,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki31.kml</name>
-			<Style id="style07">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -428,7 +429,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style8">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -437,30 +438,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id07">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style8</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style07</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id07</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.690831,26.227739,58.5 127.804606,26.393058,29 
+						127.690831,26.227739,21 127.804606,26.393058,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki30.kml</name>
-			<Style id="style08">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -469,7 +470,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style9">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -478,30 +479,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id08">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style9</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style08</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id08</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						129.331157,28.298382,35.1 128.961256,27.797443,29 
+						129.331157,28.298382,21 128.961256,27.797443,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki29.kml</name>
-			<Style id="style09">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -510,7 +511,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style10">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -519,30 +520,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id09">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style10</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style09</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id09</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						129.331157,28.298382,35.1 129.595479,29.464941,29 
+						129.331157,28.298382,21 129.595479,29.464941,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki28.kml</name>
-			<Style id="style011">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -551,7 +552,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style11">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -560,23 +561,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id011">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style11</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style011</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id011</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						129.912727,29.823691,45.5 130.398939,30.375232,61.5 
+						129.912727,29.823691,21 130.398939,30.375232,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -584,41 +585,41 @@
 		<Document>
 			<name>line_oki27.kml</name>
 			<open>1</open>
-			<Style id="style030">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style40">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id030">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style40</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style030</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id030</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.759685,26.170499,24.5 127.751749,26.200755,37.5 
+						127.759685,26.170499,21 127.751749,26.200755,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -626,48 +627,48 @@
 		<Document>
 			<name>line_oki26.kml</name>
 			<open>1</open>
-			<Style id="style040">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style50">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id040">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style50</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style040</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id040</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.759685,26.170499,45 127.725398,26.123292,43 
+						127.759685,26.170499,21 127.725398,26.123292,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki25.kml</name>
-			<Style id="style012">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -676,7 +677,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style12">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -685,23 +686,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id012">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style12</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style012</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id012</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.986998,26.607495,30.2 127.995316,26.59015,15 
+						127.986998,26.607495,21 127.995316,26.59015,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -709,48 +710,48 @@
 		<Document>
 			<name>line_oki24.kml</name>
 			<open>1</open>
-			<Style id="style050">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style60">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id050">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style60</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style050</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id050</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.986998,26.607495,25.2 127.996993,26.608586,13.9 
+						127.986998,26.607495,21 127.996993,26.608586,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki23.kml</name>
-			<Style id="style013">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -759,7 +760,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style13">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -768,23 +769,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id013">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style13</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style013</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id013</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.986998,26.607495,30.2 127.998555,26.603336,25 
+						127.986998,26.607495,21 127.998555,26.603336,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -792,48 +793,48 @@
 		<Document>
 			<name>line_oki22.kml</name>
 			<open>1</open>
-			<Style id="style060">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style70">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id060">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style70</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style060</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id060</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.146393,26.650104,20 128.14912,26.654368,15 
+						128.146393,26.650104,21 128.14912,26.654368,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki21.kml</name>
-			<Style id="style014">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -842,7 +843,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style14">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -851,30 +852,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id014">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style14</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style014</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id014</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.28976,26.792309,32 128.961256,27.797443,29 
+						128.28976,26.792309,21 128.961256,27.797443,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki20.kml</name>
-			<Style id="style015">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -883,7 +884,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style15">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -892,30 +893,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id015">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style15</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style015</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id015</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.885524,26.322791,30 128.045483,26.601424,34 
+						127.885524,26.322791,21 128.045483,26.601424,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki19.kml</name>
-			<Style id="style016">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -924,7 +925,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style16">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -933,30 +934,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id016">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style16</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style016</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id016</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.885524,26.322791,30 127.759685,26.170499,45 
+						127.885524,26.322791,21 127.759685,26.170499,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki18.kml</name>
-			<Style id="style017">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -965,7 +966,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style17">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -974,23 +975,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id017">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style17</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style017</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id017</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.2432,26.752138,15 128.268721,26.709543,15.5 
+						128.2432,26.752138,21 128.268721,26.709543,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -998,48 +999,48 @@
 		<Document>
 			<name>line_oki17.kml</name>
 			<open>1</open>
-			<Style id="style070">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style80">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id070">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style80</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style070</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id070</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.951075,26.483705,39.99999999999999 127.933883,26.467867,19.8 
+						127.951075,26.483705,21 127.933883,26.467867,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki16.kml</name>
-			<Style id="style018">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1048,7 +1049,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style18">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1057,30 +1058,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id018">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style18</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style018</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id018</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.951075,26.483705,50.3 127.804606,26.393058,39.99999999999999 
+						127.951075,26.483705,21 127.804606,26.393058,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki15.kml</name>
-			<Style id="style019">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1089,7 +1090,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style19">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1098,30 +1099,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id019">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style19</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style019</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id019</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						130.398939,30.375232,53.5 130.373247,31.321925,30 
+						130.398939,30.375232,21 130.373247,31.321925,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki14.kml</name>
-			<Style id="style021">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1130,7 +1131,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style21">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1139,30 +1140,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id021">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style21</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style021</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id021</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.02104,26.606,19.2 128.045483,26.601424,24 
+						128.02104,26.606,21 128.045483,26.601424,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki13.kml</name>
-			<Style id="style022">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1171,7 +1172,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style22">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1180,30 +1181,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id022">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style22</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style022</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id022</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.02104,26.606,19.2 128.019334,26.61592,33.5 
+						128.02104,26.606,21 128.019334,26.61592,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki12.kml</name>
-			<Style id="style023">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1212,7 +1213,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style23">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1221,30 +1222,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id023">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style23</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style023</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id023</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.268721,26.709543,20 128.270714,26.71183,15 
+						128.268721,26.709543,21 128.270714,26.71183,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki11.kml</name>
-			<Style id="style024">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1253,7 +1254,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style24">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1262,30 +1263,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id024">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style24</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style024</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id024</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						129.595479,29.464941,29 129.912727,29.823691,45.5 
+						129.595479,29.464941,21 129.912727,29.823691,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki10.kml</name>
-			<Style id="style025">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1294,7 +1295,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style25">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1303,23 +1304,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id025">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style25</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style025</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id025</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						127.995316,26.59015,15 127.927507,26.633898,20.9 
+						127.995316,26.59015,21 127.927507,26.633898,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -1327,48 +1328,48 @@
 		<Document>
 			<name>line_oki9.kml</name>
 			<open>1</open>
-			<Style id="style080">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style90">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id080">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style90</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style080</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id080</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.2551388888889,26.78355555555556,15 128.28976,26.792309,19 
+						128.2551388888889,26.78355555555556,21 128.28976,26.792309,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki8.kml</name>
-			<Style id="style026">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1377,7 +1378,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style26">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1386,30 +1387,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id026">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style26</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style026</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id026</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.1726388888889,26.64958333333333,15 128.206477,26.689688,15 
+						128.1726388888889,26.64958333333333,21 128.206477,26.689688,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki7.kml</name>
-			<Style id="style027">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1418,7 +1419,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style27">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1427,30 +1428,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id027">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style27</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style027</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id027</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.274687,26.745415,15 128.28976,26.792309,19 
+						128.274687,26.745415,21 128.28976,26.792309,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki6.kml</name>
-			<Style id="style028">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1459,7 +1460,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style28">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1468,30 +1469,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id028">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style28</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style028</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id028</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.2436,26.702305,15 128.244107,26.679839,23.4 
+						128.2436,26.702305,21 128.244107,26.679839,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki5.kml</name>
-			<Style id="style029">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1500,7 +1501,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style29">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1509,23 +1510,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id029">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style29</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style029</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id029</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.178564,26.645812,15 128.045483,26.601424,29 
+						128.178564,26.645812,21 128.045483,26.601424,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -1533,48 +1534,48 @@
 		<Document>
 			<name>line_oki4.kml</name>
 			<open>1</open>
-			<Style id="style090">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style100">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
 				<LineStyle>
-					<color>ffff0000</color>
+					<color>ff0000ff</color>
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id090">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style100</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style090</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id090</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.14912,26.654368,15 128.045483,26.601424,34 
+						128.14912,26.654368,21 128.045483,26.601424,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki3.kml</name>
-			<Style id="style031">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1583,7 +1584,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style31">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1592,30 +1593,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id031">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style31</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style031</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id031</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.206477,26.689688,15 128.244107,26.679839,23.4 
+						128.206477,26.689688,21 128.244107,26.679839,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki2.kml</name>
-			<Style id="style032">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1624,7 +1625,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style32">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1633,30 +1634,30 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id032">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style32</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style032</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id032</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						128.270714,26.71183,15 128.2436,26.702305,15 
+						128.270714,26.71183,21 128.2436,26.702305,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>line_oki1.kml</name>
-			<Style id="style033">
+			<Style id="style">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1665,7 +1666,7 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<Style id="style33">
+			<Style id="style0">
 				<BalloonStyle>
 					<bgColor>00664422</bgColor>
 				</BalloonStyle>
@@ -1674,23 +1675,23 @@
 					<width>2</width>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id033">
+			<StyleMap id="stylemap_id0">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style33</styleUrl>
+					<styleUrl>#style</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style033</styleUrl>
+					<styleUrl>#style0</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
 				<name>okinawa_line</name>
-				<styleUrl>#stylemap_id033</styleUrl>
+				<styleUrl>#stylemap_id0</styleUrl>
 				<LineString>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>
-						130.528421,31.318097,18 130.373247,31.321925,19 
+						130.528421,31.318097,21 130.373247,31.321925,21 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -5284,13 +5285,13 @@
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.751749,26.200755,37.5</coordinates>
+					<coordinates>127.751749,26.200755,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>与座(大里).kml</name>
-			<Style id="style0101">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5305,7 +5306,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style111">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5320,14 +5321,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0101">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0101</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style111</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5341,17 +5342,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0101</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.725398,26.123292,43</coordinates>
+					<coordinates>127.725398,26.123292,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>名護(大北).kml</name>
-			<Style id="style0102">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5366,7 +5367,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style112">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5381,14 +5382,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0102">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0102</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style112</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5402,17 +5403,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0102</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.998555,26.603336,25</coordinates>
+					<coordinates>127.998555,26.603336,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>名護(川上).kml</name>
-			<Style id="style0103">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5427,7 +5428,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style113">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5442,14 +5443,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0103">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0103</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style113</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5463,17 +5464,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0103</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.998555,26.603336,29.5</coordinates>
+					<coordinates>127.998555,26.603336,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>防災沖縄.kml</name>
-			<Style id="style0104">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5488,7 +5489,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style114">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5503,14 +5504,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0104">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0104</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style114</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5524,17 +5525,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0104</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.681438,26.212811,50.00000000000001</coordinates>
+					<coordinates>127.681438,26.212811,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>辺野喜(西銘岳).kml</name>
-			<Style id="style0105">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5549,7 +5550,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style115">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5564,14 +5565,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0105">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0105</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style115</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5585,17 +5586,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0105</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.25854,26.788129,15.4</coordinates>
+					<coordinates>128.25854,26.788129,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>福地(多野岳).kml</name>
-			<Style id="style0106">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5610,7 +5611,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style116">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5625,14 +5626,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0106">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0106</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style116</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5646,17 +5647,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0106</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.175788,26.647563,7</coordinates>
+					<coordinates>128.175788,26.647563,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>福地(新川).kml</name>
-			<Style id="style0107">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5671,7 +5672,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style117">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5686,14 +5687,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0107">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0107</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style117</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5707,17 +5708,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0107</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.175788,26.647563,7</coordinates>
+					<coordinates>128.175788,26.647563,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>普久川(西銘岳).kml</name>
-			<Style id="style0108">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5732,7 +5733,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style118">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5747,14 +5748,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0108">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0108</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style118</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5768,17 +5769,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0108</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.280198,26.742871,20</coordinates>
+					<coordinates>128.280198,26.742871,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>普久川(国頭).kml</name>
-			<Style id="style0109">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5793,7 +5794,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style119">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5808,14 +5809,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id0109">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style0109</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style119</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5829,17 +5830,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id0109</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.280198,26.742871,15.5</coordinates>
+					<coordinates>128.280198,26.742871,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>尾巡山(屋敷平).kml</name>
-			<Style id="style01010">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5854,7 +5855,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1110">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5869,14 +5870,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01010">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01010</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1110</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5890,17 +5891,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01010</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>130.528421,31.318097,18</coordinates>
+					<coordinates>130.528421,31.318097,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>比井田原(大北).kml</name>
-			<Style id="style01011">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5915,7 +5916,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1111">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5930,14 +5931,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01011">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01011</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1111</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -5951,17 +5952,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01011</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.996993,26.608586,13.9</coordinates>
+					<coordinates>127.996993,26.608586,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>八重岳(大北).kml</name>
-			<Style id="style01012">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5976,7 +5977,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1112">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -5991,14 +5992,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01012">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01012</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1112</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6012,17 +6013,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01012</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.927507,26.633898,20.9</coordinates>
+					<coordinates>127.927507,26.633898,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>八重岳(漢那).kml</name>
-			<Style id="style01013">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6037,7 +6038,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1113">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6052,14 +6053,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01013">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01013</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1113</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6073,17 +6074,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01013</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.927507,26.633898,32.5</coordinates>
+					<coordinates>127.927507,26.633898,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>那覇(防災沖縄県).kml</name>
-			<Style id="style01014">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6098,7 +6099,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1114">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6113,14 +6114,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01014">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01014</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1114</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6134,17 +6135,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01014</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.690831,26.227739,58.5</coordinates>
+					<coordinates>127.690831,26.227739,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>那覇(大里).kml</name>
-			<Style id="style01015">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6159,7 +6160,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1115">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6174,14 +6175,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01015">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01015</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1115</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6195,17 +6196,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01015</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.690831,26.227739,58.5</coordinates>
+					<coordinates>127.690831,26.227739,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>那覇(石川).kml</name>
-			<Style id="style01016">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6220,7 +6221,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1116">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6235,14 +6236,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01016">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01016</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1116</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6256,17 +6257,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01016</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.690831,26.227739,58.5</coordinates>
+					<coordinates>127.690831,26.227739,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>那覇(嘉手納).kml</name>
-			<Style id="style01017">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6281,7 +6282,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1117">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6296,14 +6297,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01017">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01017</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1117</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6317,17 +6318,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01017</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.690831,26.227739,58.5</coordinates>
+					<coordinates>127.690831,26.227739,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>徳之島(湯湾岳).kml</name>
-			<Style id="style01018">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6342,7 +6343,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1118">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6357,14 +6358,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01018">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01018</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1118</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6378,17 +6379,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01018</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.961256,27.797443,29</coordinates>
+					<coordinates>128.961256,27.797443,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>徳之島(西銘岳).kml</name>
-			<Style id="style01019">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6403,7 +6404,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1119">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6418,14 +6419,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01019">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01019</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1119</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6439,17 +6440,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01019</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.961256,27.797443,29</coordinates>
+					<coordinates>128.961256,27.797443,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>湯湾岳(徳之島).kml</name>
-			<Style id="style01020">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6464,7 +6465,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1120">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6479,14 +6480,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01020">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01020</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1120</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6500,17 +6501,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01020</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>129.331157,28.298382,35.1</coordinates>
+					<coordinates>129.331157,28.298382,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>湯湾岳(悪石島).kml</name>
-			<Style id="style01021">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6525,7 +6526,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1121">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6540,14 +6541,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01021">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01021</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1121</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6561,17 +6562,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01021</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>129.331157,28.298382,35.1</coordinates>
+					<coordinates>129.331157,28.298382,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>中之島(屋久島).kml</name>
-			<Style id="style01022">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6586,7 +6587,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1122">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6601,14 +6602,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01022">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01022</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1122</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6622,17 +6623,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01022</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>129.912727,29.823691,45.5</coordinates>
+					<coordinates>129.912727,29.823691,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>中之島(悪石島).kml</name>
-			<Style id="style01023">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6647,7 +6648,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1123">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6662,14 +6663,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01023">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01023</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1123</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6683,17 +6684,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01023</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>129.912727,29.823691,45.5</coordinates>
+					<coordinates>129.912727,29.823691,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大里(与那原).kml</name>
-			<Style id="style01024">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6708,7 +6709,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1124">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6723,14 +6724,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01024">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01024</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1124</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6744,17 +6745,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01024</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.759685,26.170499,24.5</coordinates>
+					<coordinates>127.759685,26.170499,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大里(与座).kml</name>
-			<Style id="style01025">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6769,7 +6770,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1125">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6784,14 +6785,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01025">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01025</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1125</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6805,17 +6806,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01025</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.759685,26.170499,45</coordinates>
+					<coordinates>127.759685,26.170499,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大里(那覇).kml</name>
-			<Style id="style01026">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6830,7 +6831,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1126">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6845,14 +6846,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01026">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01026</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1126</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6866,17 +6867,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01026</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.759685,26.170499,54</coordinates>
+					<coordinates>127.759685,26.170499,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大里(勝連).kml</name>
-			<Style id="style01027">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6891,7 +6892,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1127">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6906,14 +6907,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01027">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01027</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1127</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6927,17 +6928,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01027</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.759685,26.170499,45</coordinates>
+					<coordinates>127.759685,26.170499,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大北(名護).kml</name>
-			<Style id="style01028">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6952,7 +6953,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1128">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -6967,14 +6968,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01028">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01028</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1128</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -6988,17 +6989,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01028</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.986998,26.607495,30.2</coordinates>
+					<coordinates>127.986998,26.607495,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大北(比井田原).kml</name>
-			<Style id="style01029">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7013,7 +7014,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1129">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7028,14 +7029,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01029">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01029</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1129</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7049,17 +7050,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01029</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.986998,26.607495,25.2</coordinates>
+					<coordinates>127.986998,26.607495,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大北(八重岳).kml</name>
-			<Style id="style01030">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7074,7 +7075,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1130">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7089,14 +7090,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01030">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01030</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1130</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7110,17 +7111,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01030</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.986998,26.607495,30.2</coordinates>
+					<coordinates>127.986998,26.607495,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>大保(多野岳).kml</name>
-			<Style id="style01031">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7135,7 +7136,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1131">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7150,14 +7151,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01031">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01031</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1131</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7171,17 +7172,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01031</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.146393,26.650104,20</coordinates>
+					<coordinates>128.146393,26.650104,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>多野岳(福地).kml</name>
-			<Style id="style01032">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7196,7 +7197,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1132">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7211,14 +7212,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01032">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01032</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1132</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7232,17 +7233,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01032</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.045483,26.601424,29</coordinates>
+					<coordinates>128.045483,26.601424,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>多野岳(大保).kml</name>
-			<Style id="style01033">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7257,7 +7258,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1133">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7272,14 +7273,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01033">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01033</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1133</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7293,17 +7294,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01033</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.045483,26.601424,34</coordinates>
+					<coordinates>128.045483,26.601424,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>多野岳(勝連).kml</name>
-			<Style id="style01034">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7318,7 +7319,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1134">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7333,14 +7334,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01034">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01034</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1134</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7354,17 +7355,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01034</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.045483,26.601424,34</coordinates>
+					<coordinates>128.045483,26.601424,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>多野岳(羽地).kml</name>
-			<Style id="style01035">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7379,7 +7380,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1135">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7394,14 +7395,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01035">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01035</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1135</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7415,17 +7416,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01035</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.045483,26.601424,24</coordinates>
+					<coordinates>128.045483,26.601424,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>川上(名護).kml</name>
-			<Style id="style01036">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7440,7 +7441,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1136">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7455,14 +7456,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01036">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01036</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1136</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7476,17 +7477,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01036</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.019334,26.61592,33.5</coordinates>
+					<coordinates>128.019334,26.61592,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>川上(羽地).kml</name>
-			<Style id="style01037">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7501,7 +7502,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1137">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7516,14 +7517,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01037">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01037</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1137</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7537,17 +7538,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01037</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.019334,26.61592,33.5</coordinates>
+					<coordinates>128.019334,26.61592,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>石川(漢那).kml</name>
-			<Style id="style01038">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7562,7 +7563,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1138">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7577,14 +7578,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01038">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01038</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1138</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7598,17 +7599,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01038</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.804606,26.393058,39.99999999999999</coordinates>
+					<coordinates>127.804606,26.393058,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>石川(安謝).kml</name>
-			<Style id="style01039">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7623,7 +7624,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1139">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7638,14 +7639,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01039">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01039</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1139</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7659,17 +7660,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01039</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.804606,26.393058,29</coordinates>
+					<coordinates>127.804606,26.393058,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>西銘岳(辺野喜).kml</name>
-			<Style id="style01040">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7684,7 +7685,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1140">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7699,14 +7700,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01040">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01040</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1140</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7720,17 +7721,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01040</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.28976,26.792309,19</coordinates>
+					<coordinates>128.28976,26.792309,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>西銘岳(普久川).kml</name>
-			<Style id="style01041">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7745,7 +7746,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1141">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7760,14 +7761,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01041">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01041</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1141</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7781,17 +7782,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01041</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.28976,26.792309,19</coordinates>
+					<coordinates>128.28976,26.792309,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>西銘岳(徳之島).kml</name>
-			<Style id="style01042">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7806,7 +7807,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1142">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7821,14 +7822,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01042">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01042</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1142</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7842,17 +7843,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01042</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.28976,26.792309,32</coordinates>
+					<coordinates>128.28976,26.792309,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>新川(福地).kml</name>
-			<Style id="style01043">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7867,7 +7868,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1143">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7882,14 +7883,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01043">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01043</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1143</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7903,17 +7904,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01043</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.244107,26.679839,23.4</coordinates>
+					<coordinates>128.244107,26.679839,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>新川(安波).kml</name>
-			<Style id="style01044">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7928,7 +7929,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1144">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7943,14 +7944,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01044">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01044</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1144</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -7964,17 +7965,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01044</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.244107,26.679839,23.4</coordinates>
+					<coordinates>128.244107,26.679839,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>勝連(大里).kml</name>
-			<Style id="style01045">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -7989,7 +7990,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1145">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8004,14 +8005,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01045">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01045</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1145</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8025,17 +8026,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01045</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.885524,26.322791,30</coordinates>
+					<coordinates>127.885524,26.322791,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>勝連(多野岳).kml</name>
-			<Style id="style01046">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8050,7 +8051,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1146">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8065,14 +8066,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01046">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01046</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1146</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8086,17 +8087,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01046</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.885524,26.322791,30</coordinates>
+					<coordinates>127.885524,26.322791,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>国頭(普久川).kml</name>
-			<Style id="style01047">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8111,7 +8112,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1147">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8126,14 +8127,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01047">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01047</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1147</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8147,17 +8148,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01047</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.2432,26.752138,20</coordinates>
+					<coordinates>128.2432,26.752138,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>国頭(安波).kml</name>
-			<Style id="style01048">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8172,7 +8173,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1148">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8187,14 +8188,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01048">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01048</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1148</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8208,17 +8209,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01048</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.2432,26.752138,15</coordinates>
+					<coordinates>128.2432,26.752138,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>金武.kml</name>
-			<Style id="style01049">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8233,7 +8234,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1149">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8248,14 +8249,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01049">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01049</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1149</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8269,17 +8270,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01049</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.933883,26.467867,19.8</coordinates>
+					<coordinates>127.933883,26.467867,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>漢那(八重岳).kml</name>
-			<Style id="style01050">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8294,7 +8295,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1150">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8309,14 +8310,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01050">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01050</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1150</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8330,17 +8331,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01050</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.951075,26.483705,50.3</coordinates>
+					<coordinates>127.951075,26.483705,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>漢那(石川).kml</name>
-			<Style id="style01051">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8355,7 +8356,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1151">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8370,14 +8371,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01051">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01051</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1151</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8391,17 +8392,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01051</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.951075,26.483705,50.3</coordinates>
+					<coordinates>127.951075,26.483705,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>漢那(金武).kml</name>
-			<Style id="style01052">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8416,7 +8417,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1152">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8431,14 +8432,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01052">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01052</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1152</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8452,17 +8453,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01052</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.951075,26.483705,39.99999999999999</coordinates>
+					<coordinates>127.951075,26.483705,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>嘉手納(那覇).kml</name>
-			<Style id="style01053">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8477,7 +8478,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1153">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8492,14 +8493,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01053">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01053</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1153</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8513,17 +8514,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01053</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.747623,26.330779,29</coordinates>
+					<coordinates>127.747623,26.330779,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>屋敷平(尾巡山).kml</name>
-			<Style id="style01054">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8538,7 +8539,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1154">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8553,14 +8554,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01054">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01054</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1154</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8574,17 +8575,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01054</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>130.373247,31.321925,19</coordinates>
+					<coordinates>130.373247,31.321925,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>屋敷平(屋久島).kml</name>
-			<Style id="style01055">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8599,7 +8600,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1155">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8614,14 +8615,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01055">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01055</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1155</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8635,17 +8636,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01055</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>130.373247,31.321925,30</coordinates>
+					<coordinates>130.373247,31.321925,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>屋久島(中之島).kml</name>
-			<Style id="style01056">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8660,7 +8661,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1156">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8675,14 +8676,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01056">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01056</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1156</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8696,17 +8697,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01056</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>130.398939,30.375232,61.5</coordinates>
+					<coordinates>130.398939,30.375232,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>屋久島(屋敷平).kml</name>
-			<Style id="style01057">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8721,7 +8722,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1157">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8736,14 +8737,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01057">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01057</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1157</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8757,17 +8758,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01057</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>130.398939,30.375232,53.5</coordinates>
+					<coordinates>130.398939,30.375232,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>羽地(多野岳).kml</name>
-			<Style id="style01058">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8782,7 +8783,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1158">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8797,14 +8798,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01058">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01058</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1158</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8818,17 +8819,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01058</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.02104,26.606,19.2</coordinates>
+					<coordinates>128.02104,26.606,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>羽地(川上).kml</name>
-			<Style id="style01059">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8843,7 +8844,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1159">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8858,14 +8859,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01059">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01059</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1159</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8879,17 +8880,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01059</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.02104,26.606,19.2</coordinates>
+					<coordinates>128.02104,26.606,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>安波(新川).kml</name>
-			<Style id="style01060">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8904,7 +8905,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1160">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8919,14 +8920,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01060">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01060</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1160</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -8940,17 +8941,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01060</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.268721,26.709543,20</coordinates>
+					<coordinates>128.268721,26.709543,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>安波(国頭).kml</name>
-			<Style id="style01061">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8965,7 +8966,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1161">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -8980,14 +8981,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01061">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01061</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1161</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9001,17 +9002,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01061</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.268721,26.709543,15.5</coordinates>
+					<coordinates>128.268721,26.709543,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>悪石島(湯湾岳).kml</name>
-			<Style id="style01062">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9026,7 +9027,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1162">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9041,14 +9042,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01062">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01062</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1162</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9062,17 +9063,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01062</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>129.595479,29.464941,29</coordinates>
+					<coordinates>129.595479,29.464941,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>悪石島(中之島).kml</name>
-			<Style id="style01063">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9087,7 +9088,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1163">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9102,14 +9103,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01063">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01063</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1163</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9123,17 +9124,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01063</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>129.595479,29.464941,29</coordinates>
+					<coordinates>129.595479,29.464941,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re名護.kml</name>
-			<Style id="style01064">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9148,7 +9149,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1164">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9163,14 +9164,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01064">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01064</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1164</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9184,17 +9185,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01064</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>127.995316,26.59015,15</coordinates>
+					<coordinates>127.995316,26.59015,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re辺野喜.kml</name>
-			<Style id="style01065">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9209,7 +9210,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1165">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9224,14 +9225,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01065">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01065</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1165</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9245,17 +9246,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01065</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.2551388888889,26.78355555555556,15</coordinates>
+					<coordinates>128.2551388888889,26.78355555555556,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re福地.kml</name>
-			<Style id="style01066">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9270,7 +9271,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1166">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9285,14 +9286,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01066">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01066</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1166</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9306,17 +9307,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01066</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.1726388888889,26.64958333333333,15</coordinates>
+					<coordinates>128.1726388888889,26.64958333333333,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re普久川.kml</name>
-			<Style id="style01067">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9331,7 +9332,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1167">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9346,14 +9347,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01067">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01067</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1167</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9367,17 +9368,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01067</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.274687,26.745415,15</coordinates>
+					<coordinates>128.274687,26.745415,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re排持山.kml</name>
-			<Style id="style01068">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9392,7 +9393,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1168">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9407,14 +9408,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01068">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01068</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1168</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9428,17 +9429,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01068</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.2436,26.702305,15</coordinates>
+					<coordinates>128.2436,26.702305,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re東福地.kml</name>
-			<Style id="style01069">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9453,7 +9454,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1169">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9468,14 +9469,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01069">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01069</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1169</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9489,17 +9490,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01069</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.178564,26.645812,15</coordinates>
+					<coordinates>128.178564,26.645812,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re大保.kml</name>
-			<Style id="style01070">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9514,7 +9515,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1170">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9529,14 +9530,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01070">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01070</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1170</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9550,17 +9551,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01070</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.14912,26.654368,15</coordinates>
+					<coordinates>128.14912,26.654368,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re伊湯岳.kml</name>
-			<Style id="style01071">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9575,7 +9576,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1171">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9590,14 +9591,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01071">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01071</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1171</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9611,17 +9612,17 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01071</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.206477,26.689688,15</coordinates>
+					<coordinates>128.206477,26.689688,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
 		<Document>
 			<name>re安波左岸.kml</name>
-			<Style id="style01072">
+			<Style id="style0100">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9636,7 +9637,7 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<Style id="style1172">
+			<Style id="style110">
 				<IconStyle>
 					<color>ff0000ff</color>
 					<scale>0.2</scale>
@@ -9651,14 +9652,14 @@
 					<color>ffffff00</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="stylemap_id01072">
+			<StyleMap id="stylemap_id0100">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#style01072</styleUrl>
+					<styleUrl>#style0100</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#style1172</styleUrl>
+					<styleUrl>#style110</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Placemark>
@@ -9672,11 +9673,11 @@
 					<tilt>46.72425699662645</tilt>
 					<range>305.8880792294568</range>
 				</LookAt>
-				<styleUrl>#stylemap_id01072</styleUrl>
+				<styleUrl>#stylemap_id0100</styleUrl>
 				<Point>
 					<extrude>1</extrude>
 					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>128.270714,26.71183,15</coordinates>
+					<coordinates>128.270714,26.71183,33</coordinates>
 				</Point>
 			</Placemark>
 		</Document>
