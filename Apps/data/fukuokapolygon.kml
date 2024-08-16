@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>fukuokapolygon.kml</name>
+	<Style id="polygon">
+		<PolyStyle>
+			<color>7f55ff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="polygon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#polygon1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#polygon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="polygon1">
+		<PolyStyle>
+			<color>7f55ff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>東福岡ＰＡ</name>
+		<description>これが指定範囲です。</description>
+		<styleUrl>#polygon0</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.428041737419,33.644910106827,100 130.426967151912,33.6448387797268,100 130.431477590033,33.5972810878119,100 130.432551588968,33.59735237628,100 130.428041737419,33.644910106827,100 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
