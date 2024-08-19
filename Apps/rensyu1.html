@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Cesium.js"></script>
+<link href="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    // Get your token from https://cesium.com/ion/tokens
+    // A. トークンを設定
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5N2UyMjcwOS00MDY1LTQxYjEtYjZjMy00YTU0ZTg5MmViYWQiLCJpZCI6ODAzMDYsImlhdCI6MTY0Mjc0ODI2MX0.dkwAL1CcljUV7NA7fDbhXXnmyZQU_c-G5zRx8PtEcxE';
+    // B. terrainProviderを設定
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      terrainProvider: new Cesium.CesiumTerrainProvider({
+          url: Cesium.IonResource.fromAssetId(770371)
+      })
+    }
+    );
+    //var viewer = new Cesium.Viewer('cesiumContainer');
+    //var viewer = new Cesium.Viewer('cesiumContainer', {
+    //    baseLayerPicker: true,
+    //    timeline : true,
+    //    animation : true,
+    //    homeButton: true,
+    //    vrButton: fales,
+    //    geocoder: true,
+    //    ceneModePicker: true,
+    //    navigationHelpButton: true
+    //});
+
+    // ①建物モデルの追加
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+      url : 'https://assets.cms.plateau.reearth.io/assets/dd/06a279-cd9f-40d9-bcc0-4eb3e222f5b8/40130_fukuoka-shi_2022_3dtiles_op_bldg_40131_higashi-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+	url : 'https://assets.cms.plateau.reearth.io/assets/19/51e10e-3323-42df-b158-351f412abe6c/40130_fukuoka-shi_2022_3dtiles_op_bldg_40132_hakata-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+	url : 'https://assets.cms.plateau.reearth.io/assets/4a/089caf-a87d-4597-ac5d-8fb7f87dc992/40130_fukuoka-shi_2022_3dtiles_op_bldg_40133_chuo-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+	url : 'https://assets.cms.plateau.reearth.io/assets/95/b7385c-310f-4bc9-b715-4bc3c33fff78/40130_fukuoka-shi_2022_3dtiles_op_bldg_40134_minami-ku_lod2/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+	url : 'https://assets.cms.plateau.reearth.io/assets/e9/31555c-8c0b-4312-ae44-19c70423a203/40130_fukuoka-shi_2022_3dtiles_op_bldg_40135_nishi-ku_lod1/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+	url : 'https://assets.cms.plateau.reearth.io/assets/21/d227d1-92ff-4624-a0e2-0c41e08a75ed/40130_fukuoka-shi_2022_3dtiles_op_bldg_40136_jonan-ku_lod1/tileset.json'
+    }));
+    var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
+	url : 'https://assets.cms.plateau.reearth.io/assets/80/0577ed-b700-4aea-93ef-109169eaae99/40130_fukuoka-shi_2022_3dtiles_op_bldg_40137_sawara-ku_lod1/tileset.json'
+    }));
+
+    var kmlfile = './data/higashifukuline.kml';
+      viewer.dataSources.add(Cesium.KmlDataSource.load(kmlfile));
+    //var viewer = new Cesium.Viewer('cesiumContainer');
+    var kmlfile = './data/fukuokapolygon.kml';
+      viewer.dataSources.add(Cesium.KmlDataSource.load(kmlfile));
+    var kmlfile = './data/okinawaTaju.kml';
+      viewer.dataSources.add(Cesium.KmlDataSource.load(kmlfile));
+
+      var polygon=viewer.entities.add({
+          name:"東京都庁",
+          description:"ここは東京都庁です。",
+          polygon: {
+              hierarchy : Cesium.Cartesian3.fromDegreesArrayHeights([
+                  139.69163740881, 35.68903147599, 0,
+                  139.69143377086, 35.68993508559, 0,
+                  139.69184361318, 35.68999687609, 0,
+                  139.69203616751, 35.68909180654, 0]),
+              heightReference: Cesium.HeightReference.RELATIVE_TO_GROUND,
+              extrudedHeight: 200.0,
+              extrudedHeightReference: Cesium.HeightReference. RELATIVE_TO_GROUND,
+              material: Cesium.Color.RED.withAlpha(0.5),
+              outline: true,
+                outlineColor : Cesium.Color.BLACK
+          }
+      });
+      viewer.camera.flyTo({
+          destination: Cesium. Cartesian3.fromDegrees(139.691734969185, 35.689513446065, 1000.0),
+      });
+    // ②カメラのズーム
+    //viewer.flyTo(your_3d_tiles);
+    //確認用URL:https://fukusawarajiro41543.github.io/cesim2/Apps/rensyu1.html
+  </script>
+</body>
+</html>    
