@@ -25,7 +25,7 @@
       });      
       
       viewer.dataSources
-          .add(Cesium.CzmlDataSource.load('../data/191105_load3.czml'))
+          .add(Cesium.CzmlDataSource.load('./data/191105_load3.czml'))
           .then(function (ds) {
             var entity = ds.entities.getById("path");
             viewer.trackedEntity = entity;
