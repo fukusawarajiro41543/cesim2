@@ -25,13 +25,14 @@
       });      
       
       viewer.dataSources
-          .add(Cesium.CzmlDataSource.load('../Datas/191105_load3.czml'))
+          .add(Cesium.CzmlDataSource.load('../data/191105_load3.czml'))
           .then(function (ds) {
             var entity = ds.entities.getById("path");
             viewer.trackedEntity = entity;
       });
       
-      viewer.dataSources.add(Cesium.KmlDataSource.load('../Datas/191105_load2.kml'));
+      viewer.dataSources.add(Cesium.KmlDataSource.load('../data/191105_load2.kml'));
+      //確認用URL:https://fukusawarajiro41543.github.io/cesim2/Apps/GPSkirojyouhou_czml.html
     </script>
   </body>
 </html>
