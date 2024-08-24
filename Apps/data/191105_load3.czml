@@ -1,0 +1,40 @@
+[{
+    "id":"document", 
+    "name":"line",
+    "version":"1.0",
+    "clock": {
+        "interval":"2019-11-05T01:27:14.002Z/2019-11-05T07:41:13.998Z",
+        "currentTime":"2019-11-05T01:27:14.002Z",
+         "multiplier": 1
+    }
+},{
+    "id":"path", 
+    "name":"line", 
+    "description":"ライン", 
+    "availability":"2019-11-05T01:27:14.002Z/2019-11-05T07:41:13.998Z",
+    "path": {
+        "material": { 
+            "polylineOutline": { 
+                "color": { 
+                    "rgba": [255, 0, 255, 0]
+                },
+                "outlineWidth": 5
+            }
+        },
+        "width": 8,
+        "leadTime": 1,
+        "trailTime": 100,
+        "resolution": 5
+    },
+    "model": {
+      "gltf": "./CesiumMilkTruck.glb"
+    },
+    "position": {
+        "epoch":"2019-11-05T01:27:14.002Z",
+        "cartographicDegrees": [
+                0,132.947655,33.834034,423,
+                38,132.947566,33.834045,417,
+                …
+        ]
+    }
+}]
